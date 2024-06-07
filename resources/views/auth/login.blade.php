@@ -22,7 +22,7 @@
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user" method="POST" action="{{ route('login') }}">
+                                    <form class="user" method="POST" action="{{ route('login.action') }}">
                                         @csrf
                                         
                                         <div class="form-group">
@@ -74,6 +74,14 @@
                                     <div class="text-center">
                                         <a class="small" href="register.html">Create an Account!</a>
                                     </div>
+                                    <div class="flex items-start">
+                                        <div class="flex items-center h-5">
+                                            <input name="remember" id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded">
+                                        </div>
+                                        <div class="ml-3 text-sm">
+                                            <label for="remember" class="text-gray-500 dark:text-gray-300">Remember me</label>
+        
+                                </div> 
                                 </div>
                             </div>
                         </div>

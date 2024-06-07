@@ -17,7 +17,7 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
                             </div>
-                            <form class="user" method="POST" action="{{ route('register') }}">
+                            <form class="user" method="POST" action="{{ route('register.save') }}">
                                 @csrf
 
                                 <div class="form-group row">

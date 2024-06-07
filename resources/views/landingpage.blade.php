@@ -48,8 +48,8 @@
         <!-- Header-->
       
         <!-- start search -->
-        <header class="bg-dark py-5">
-            <div class="container px-5 banner">
+        <header class="bg-dark py-5 banner">
+            <div class="container px-5">
                 <div class="row gx-5 justify-content-left">
                     <div class="col-lg-6">
                         <div class="text-left my-5">
