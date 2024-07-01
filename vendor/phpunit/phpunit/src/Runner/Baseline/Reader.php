@@ -24,7 +24,7 @@ use PHPUnit\Util\Xml\XmlException;
 /**
  * @internal This class is not covered by the backward compatibility promise for PHPUnit
  */
-final readonly class Reader
+final class Reader
 {
     /**
      * @psalm-param non-empty-string $baselineFile
@@ -85,6 +85,7 @@ final readonly class Reader
 
                     $description = $issueElement->textContent;
 
+                    assert(!empty($file));
                     assert($line > 0);
                     assert(!empty($hash));
                     assert(!empty($description));
